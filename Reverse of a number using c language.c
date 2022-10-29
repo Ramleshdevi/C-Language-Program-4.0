@@ -6,7 +6,7 @@ int main() {
     while (n != 0) {
         remainder = n % 10;
         rev = rev * 10 + remainder;
-        n /= 10;
+        n /= 100;
     }
     printf("Reversed number = %d", rev);
     return 0;
